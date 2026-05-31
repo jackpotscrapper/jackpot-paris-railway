@@ -1,0 +1,16 @@
+{
+  "name": "jackpots-paris",
+  "version": "4.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
